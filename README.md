@@ -1,6 +1,6 @@
-﻿# Boots Media Ripper
+﻿# Boot's Media Ripper
 
-Boots Media Ripper is a local-first Windows and Android media utility for searching a home media library and extracting screenshots, video clips, or MP3/audio clips at exact timestamps.
+Boot's Media Ripper is a local-first Windows and Android media utility for searching a home media library and extracting screenshots, video clips, or MP3/audio clips at exact timestamps.
 
 This project started as a real personal workflow tool and is being polished into a public portfolio project. It demonstrates practical AI-assisted app development, local API design, Windows automation, Android client workflows, ffmpeg integration, documentation, security hygiene, and repeatable project structure.
 
