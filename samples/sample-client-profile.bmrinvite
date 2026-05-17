@@ -1,0 +1,11 @@
+﻿{
+  "schema": "com.bootmedia.ripper.invite.v1",
+  "profileName": "Demo Home Server",
+  "serverUrls": [
+    "http://home-server.local:8787",
+    "http://tailscale-device:8787"
+  ],
+  "clientId": "client_demo_001",
+  "apiKey": "bmr_demo_xxxxxxxxx",
+  "notes": "Fake demo invite only. Do not commit real invite files."
+}

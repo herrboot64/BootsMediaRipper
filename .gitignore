@@ -1,0 +1,109 @@
+﻿# Local scripts
+GitHubify-BootsMediaRipper*.ps1
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+
+# Logs/runtime
+LOGS/
+logs/
+OUTPUT/
+output/
+*.log
+*.pid
+*.tmp
+*.bak
+
+# Local/private config
+.env
+.env.*
+*.local.json
+*.local.yaml
+*.local.yml
+config.json
+server_config.json
+clients.json
+secrets.json
+private/
+.local/
+*.pem
+*.key
+*.pfx
+*.crt
+
+# Private inventories
+*media_inventory*.json
+*media_inventory*.csv
+*movies_inventory*.csv
+*tv_inventory*.csv
+*inventory_summary*.txt
+*inventory_log*.txt
+All_Media_Summary*.csv
+!samples/sample-media-inventory.csv
+
+# Binaries/releases/build outputs
+*.exe
+*.msi
+*.zip
+*.7z
+*.rar
+dist/
+release/
+build/
+bin/
+obj/
+
+# Android build/private files
+*.apk
+*.aab
+local.properties
+android-client/.gradle/
+android-client/build/
+android-client/app/build/
+
+# Generated media
+*.mp3
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.wav
+*.flac
+
+# Images blocked by default; allow explicit public assets/screenshots.
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.ico
+!server-windows/assets/
+!server-windows/assets/*.ico
+!server-windows/assets/*.png
+!server-windows/web-assets/
+!server-windows/web-assets/*.ico
+!server-windows/web-assets/*.png
+!server-windows/web-assets/*.jpg
+!server-windows/web-assets/*.jpeg
+!server-windows/web-assets/*.webp
+!docs/screenshots/
+!docs/screenshots/*.png
+!docs/screenshots/*.jpg
+!docs/screenshots/*.jpeg
+!docs/screenshots/*.webp
+!docs/screenshots/.gitkeep
+
+# Node/Python future-proofing
+node_modules/
+coverage/
+__pycache__/
+*.pyc
+.venv/
+venv/

@@ -1,0 +1,14 @@
+Boot's Media Ripper - Rollback Clean Package
+
+No Patch-*.ps1 files are included in this ZIP.
+
+This rollback package is based on the last pre-time-rename behavior branch:
+  - session/recents browser behavior
+  - local MSI OUTPUT folder
+  - favicon support
+  - download without leaving page
+
+It intentionally rolls back the later filename/seek parser changes.
+
+Build marker:
+  ROLLBACK-LAST-KNOWN-GOOD-2026-05-16

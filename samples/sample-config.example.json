@@ -1,0 +1,20 @@
+﻿{
+  "server": {
+    "bindUrl": "http://home-server.local:8787",
+    "port": 8787
+  },
+  "mediaRoots": [
+    "\\\\MEDIA-SERVER\\Movies",
+    "\\\\MEDIA-SERVER\\tv"
+  ],
+  "outputRoot": "OUTPUT",
+  "ffmpeg": {
+    "ffmpegPath": "ffmpeg",
+    "ffprobePath": "ffprobe"
+  },
+  "auth": {
+    "mode": "apiKey",
+    "sampleOnly": true,
+    "exampleKey": "bmr_demo_xxxxxxxxx"
+  }
+}

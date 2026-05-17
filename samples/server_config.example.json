@@ -1,0 +1,1 @@
+﻿{ "Port": 8787, "Pin": "1234", "BindPrefix": "http://+:8787/", "FriendlyServerUrl": "http://home-server.local:8787/", "ServerName": "BootMediaRipper-Demo" }
